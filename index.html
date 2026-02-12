@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supreet · cs student</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons (only what you need) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">~supreet/</a>
+                <div class="nav-links">
+                    <a href="index.html" class="active">home</a>
+                    <a href="projects.html">projects</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero - Terminal Style, Honest Introduction -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    <span class="terminal-text">$</span> whoami
+                </h1>
+                <div class="hero-text">
+                    <p><span>></span> Name: Supreet</p>
+                    <p><span>></span> Age: 18</p>
+                    <p><span>></span> Status: Computer Science Student</p>
+                    <p><span>></span> Currently: Learning frontend + DSA in JavaScript</p>
+                    <p><span>></span> Debugging: C programs & Linux performance</p>
+                    <p><span>></span> Philosophy: 1% better every day</p>
+                    <p style="margin-top: 1rem; color: #3fb950;">$ _</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Currently Learning (Real, Honest, Growth-Oriented) -->
+        <section style="margin: 3rem 0;">
+            <h2>📚 currently learning</h2>
+            <div style="background: var(--bg-card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border);">
+                <div class="learning-item">→ Data Structures & Algorithms (JavaScript) — 60% done</div>
+                <div class="learning-item">→ Advanced CSS / Flexbox + Grid — building projects</div>
+                <div class="learning-item">→ Linux system optimization (swap, swappiness, Brave)</div>
+                <div class="learning-item">→ C programming — pointers, memory, file handling</div>
+                <div style="margin-top: 1rem;">
+                    <span style="color: var(--text-secondary);">next up: </span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">System Design</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects (3 realistic projects) -->
+        <section style="margin: 3rem 0;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h2>🛠️ featured projects</h2>
+                <a href="projects.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">view all →</a>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: DSA Visualizer (realistic) -->
+                <div class="project-card">
+                    <h3 class="project-title">DSA Visualizer</h3>
+                    <p class="project-desc">
+                        Learning project to visualize sorting algorithms and data structures. 
+                        Built while practicing DSA in JavaScript. Currently implements bubble, selection sort.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Linux Optimize Guide (real, niche, shows your interest) -->
+                <div class="project-card">
+                    <h3 class="project-title">Linux Performance Notes</h3>
+                    <p class="project-desc">
+                        Personal documentation of optimizing Linux on my laptop. 
+                        Includes swappiness tweaks, zram setup, Brave browser flags, and swapfile config.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Bash</span>
+                        <span class="tech-tag">sysctl</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> notes</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: College Lab Work (shows CS fundamentals) -->
+                <div class="project-card">
+                    <h3 class="project-title">CS Lab Programs</h3>
+                    <p class="project-desc">
+                        Collection of data structures programs written in C — 
+                        linked lists, stacks, queues, binary trees, expression evaluation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Data Structures</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Skills Snapshot (honest levels) -->
+        <section style="margin: 3rem 0;">
+            <h2>⚡ current stack</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+                <span class="skill-item">JavaScript (learning)</span>
+                <span class="skill-item">HTML/CSS (building)</span>
+                <span class="skill-item">C (data structures)</span>
+                <span class="skill-item">Python (basics)</span>
+                <span class="skill-item">Git/GitHub</span>
+                <span class="skill-item">Linux (daily driver)</span>
+                <span class="skill-item">VS Code</span>
+                <span class="skill-item">Brave browser 🦁</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social-links">
+                <a href="https://github.com/supreet" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:supreet@student.dev"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>© 2025 Supreet · building in public · 1% better every day</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary);">#csstudent #linux #frontend #dsa</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
